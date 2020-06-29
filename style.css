@@ -1,0 +1,15 @@
+header{
+  display: grid;
+  grid-template-rows: 40px 40px 350px;
+  background-image: url("/images/champions.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+
+}
+
+.logo img{
+   width:20%;
+   height: 40px%;
+}
