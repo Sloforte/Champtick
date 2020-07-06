@@ -13,3 +13,26 @@ header{
    width:20%;
    height: 40px%;
 }
+
+.subtitulo{
+  display: grid;
+  grid-template-rows: 1%;
+  text-align:center;
+}
+.titulo{
+  display: grid;
+  text-align:center;
+}
+.barraNavegacion{
+  display: grid;
+ text-align: center;
+}
+ul{
+  display: grid;
+  grid-template-columns: 15% 15% 15%;
+  grid-template-rows: 100px;
+  
+ 
+
+}
+
