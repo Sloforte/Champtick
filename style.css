@@ -5,7 +5,7 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  
+  color: white;
 
 }
 
@@ -22,16 +22,20 @@ header{
 .titulo{
   display: grid;
   text-align:center;
+
 }
 .barraNavegacion{
   display: grid;
  text-align: center;
+ 
 }
 ul{
   display: grid;
-  grid-template-columns: 15% 15% 15%;
+  grid-template-columns: 15% 15% 15% ;
   grid-template-rows: 100px;
-  
+  align-content: center;
+  justify-content: center;
+  list-style: none;
  
 
 }
