@@ -6,6 +6,7 @@ header{
   background-size: cover;
   background-attachment: fixed;
   color: white;
+  font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -39,9 +40,9 @@ ul{
  
 }
 li{
-  border: 2px solid white; 
+  border: 2px solid whitesmoke; 
   justify-content: center;
   align-items: center;
-  background-color: darkblue;
+  background-color: #000f54;
 }
 
