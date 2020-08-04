@@ -1,6 +1,7 @@
 header{
   display: grid;
   grid-template-rows: 40px 40px 350px;
+  grid-template-columns: 1fr;
   background-image: url("/images/champions.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,9 +41,68 @@ ul{
  
 }
 li{
-  border: 2px solid whitesmoke; 
+  border: 2px solid #000f54; 
+  display: grid;
   justify-content: center;
   align-items: center;
   background-color: #000f54;
+
+}
+
+main{
+  background-color: #000f54;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.MF{
+  Color: white;
+  text-align: center;
+}
+
+.ticks{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  color:white;
+
+}
+
+.tick1{
+  display: grid;
+  grid-template-rows: 2fr;
+  grid-template-columns: 1fr;
+  text-align: center;
+  
+  }
+
+.img1{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1%;
+}
+
+tick2{
+  display: grid;
+  grid-template-rows: 2fr;
+  grid-template-columns: 1fr;
+  text-align: center;
+ 
+  
+}
+
+.tick3{
+  display: grid;
+  grid-template-rows: 2fr;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+.tick2 h4{
+  text-align: center;
+}
+
+.tick2 p{
+  text-align: center;
 }
 
