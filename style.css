@@ -96,6 +96,8 @@ tick2{
   grid-template-rows: 2fr;
   grid-template-columns: 1fr;
   text-align: center;
+  
+
 }
 
 .tick2 h4{
@@ -104,5 +106,10 @@ tick2{
 
 .tick2 p{
   text-align: center;
+}
+
+.syc{
+  text-align: center;
+  color: white;
 }
 
