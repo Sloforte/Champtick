@@ -105,16 +105,35 @@ main{
 .League{
   display: grid;
   grid-template-rows:1fr;
-  grid-template-columns:1fr 1fr;
-  height: 900px;
+  grid-template-columns:1fr;
+  height: 400px;
   grid-column-gap: 50px;
 }
 .img2{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
+    
+  margin: auto;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  text-align: center;
   
+  
+}
+.owo{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 70% 30%;
+  grid-column-gap: 10px;
+  margin: 10px;
+
+}
+
+.owotext{
+  text-align: center;
+  color: white;
+}
+.owoimg{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin:auto;
 }
