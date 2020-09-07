@@ -2,7 +2,7 @@ header{
   display: grid;
   grid-template-rows: 40px 40px 350px;
   grid-template-columns: 1fr;
-  background-image: url("/images/Champions.jpg");
+  background-image: url("/images/europafondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -51,15 +51,16 @@ li{
   align-items: center;
   /*background-color: #000f54;*/
   background: rgba(0, 15, 84, 0.808);
-
+  text-decoration: none;
+  color: white;
 }
 main{
-  background-color: #153679;
+  background-color: orange;
   font-family: 'Open Sans', sans-serif;
 }
 .ContenedorPrincipal{ 
   display: grid;
-  height: 1000px;
+  height: 1200px;
   grid-template-rows: 1fr 1fr 1fr;
   margin-left: 200px;
   margin-right: 200px;
@@ -75,13 +76,14 @@ main{
   margin-left: auto;
   margin-right: auto;
   width: 70%;
-  height: 100%;
+  height: 70%;
+  padding-top: 40px;
 }
 .Match p{
   padding-top: 100px
 }
 footer{
-  background-color: #153679
+  background-color: black;
 }
 .info{
   display: grid;
