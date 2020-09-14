@@ -64,7 +64,9 @@ main{
   grid-template-rows: 1fr 1fr 1fr;
   margin-left: 200px;
   margin-right: 200px;
-  border: 2px solid;
+  
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .Match{
   display: grid;
