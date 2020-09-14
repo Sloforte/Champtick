@@ -52,7 +52,9 @@ li{
   text-decoration: none;
   color: white;
 }
-
+a{
+  text-decoration: none;
+}
 main{
   background-color: #153679;
   font-family: 'Open Sans', sans-serif;

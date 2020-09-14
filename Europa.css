@@ -39,7 +39,7 @@ ul{
   justify-content: center;
   list-style: none;
   color: white;
-  text-decoraition: none;
+  text-decoration: none;
  
 }
 li{
@@ -53,6 +53,9 @@ li{
   background: rgba(0, 15, 84, 0.808);
   text-decoration: none;
   color: white;
+}
+a{
+  text-decoration: none;
 }
 main{
   background-color: orange;
@@ -71,8 +74,9 @@ main{
 .Match{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border: 2px solid;
+  border: 1px solid;
   text-align: center;
+  margin-top: -1px;
 }
 .MatchImg{
   margin-left: auto;
@@ -82,7 +86,20 @@ main{
   padding-top: 40px;
 }
 .Match p{
-  padding-top: 100px
+  padding-top: 50px;
+  padding-right: 3px;
+
+}
+button {
+  border: none;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 footer{
   background-color: black;

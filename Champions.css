@@ -38,8 +38,6 @@ ul{
   align-items: center;
   justify-content: center;
   list-style: none;
-  color: white;
-  text-decoraition: none;
  
 }
 li{
@@ -55,13 +53,16 @@ li{
   color: white;
 
 }
+a{
+  text-decoration: none;
+}
 main{
   background-color: #153679;
   font-family: 'Open Sans', sans-serif;
 }
 .ContenedorPrincipal{ 
   display: grid;
-  height: 1200px;
+  height: 1300px;
   grid-template-rows: 1fr 1fr 1fr;
   margin-left: 200px;
   margin-right: 200px;
@@ -73,8 +74,9 @@ main{
 .Match{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border: 2px solid;
+  border: 1px solid;
   text-align: center;
+  margin-top: -1px;
 }
 .MatchImg{
   margin-left: auto;
@@ -84,7 +86,18 @@ main{
   padding-top: 40px;
 }
 .match p{
-  padding: 100px;
+  padding: 50px;
+}
+button {
+  border: none;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 footer{
   background-color: #153679
